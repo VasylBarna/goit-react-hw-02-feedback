@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/VasylBarna/goit-react-hw-02-feedback/static/css/main.0356d659.chunk.css",
+    "main.js": "/VasylBarna/goit-react-hw-02-feedback/static/js/main.27d877ab.chunk.js",
+    "main.js.map": "/VasylBarna/goit-react-hw-02-feedback/static/js/main.27d877ab.chunk.js.map",
+    "runtime-main.js": "/VasylBarna/goit-react-hw-02-feedback/static/js/runtime-main.edce62e9.js",
+    "runtime-main.js.map": "/VasylBarna/goit-react-hw-02-feedback/static/js/runtime-main.edce62e9.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/VasylBarna/goit-react-hw-02-feedback/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.58b31b45.chunk.js": "/VasylBarna/goit-react-hw-02-feedback/static/js/2.58b31b45.chunk.js",
+    "static/js/2.58b31b45.chunk.js.map": "/VasylBarna/goit-react-hw-02-feedback/static/js/2.58b31b45.chunk.js.map",
+    "static/js/3.a36e20bc.chunk.js": "/VasylBarna/goit-react-hw-02-feedback/static/js/3.a36e20bc.chunk.js",
+    "static/js/3.a36e20bc.chunk.js.map": "/VasylBarna/goit-react-hw-02-feedback/static/js/3.a36e20bc.chunk.js.map",
+    "index.html": "/VasylBarna/goit-react-hw-02-feedback/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/VasylBarna/goit-react-hw-02-feedback/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.0356d659.chunk.css.map": "/VasylBarna/goit-react-hw-02-feedback/static/css/main.0356d659.chunk.css.map",
+    "static/js/2.58b31b45.chunk.js.LICENSE.txt": "/VasylBarna/goit-react-hw-02-feedback/static/js/2.58b31b45.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edce62e9.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.58b31b45.chunk.js",
+    "static/css/main.0356d659.chunk.css",
+    "static/js/main.27d877ab.chunk.js"
+  ]
+}
