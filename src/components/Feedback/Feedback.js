@@ -14,7 +14,7 @@ class Feedback extends Component {
     bad: 0,
   };
 
-  handleFeedback = ({ target: { name } }) =>
+  onLeaveFeedback = ({ target: { name } }) =>
     this.setState({ [name]: this.state[name] + 1 });
 
   countTotalFeedback = () => {
@@ -32,12 +32,13 @@ class Feedback extends Component {
     const { good, neutral, bad } = this.state;
     const total = this.countTotalFeedback();
     const percente = this.countPositiveFeedbackPercentage();
+
     return (
       <div className={styles.container}>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={feedbackСhoice}
-            onLeaveFeedback={this.handleFeedback}
+            onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
         <Section title="Statistics">
@@ -46,6 +47,7 @@ class Feedback extends Component {
               good={good}
               neutral={neutral}
               bad={bad}
+              total={total}
               positivePercentage={percente}
             />
           ) : (

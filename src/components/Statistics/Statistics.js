@@ -1,5 +1,5 @@
+import PropTypes from 'prop-types';
 import styles from './Statistics.module.scss';
-
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   <div className={styles.statistics}>
     <p>
@@ -21,4 +21,11 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   </div>
 );
 
+Statistics.propType = {
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.func.isRequired,
+  positivePercentage: PropTypes.func.isRequired,
+};
 export default Statistics;
