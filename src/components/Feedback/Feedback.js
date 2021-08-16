@@ -48,7 +48,7 @@ class Feedback extends Component {
               neutral={neutral}
               bad={bad}
               total={total}
-              positivePercentage={percente}
+              percente={percente}
             />
           ) : (
             <Notification message="No feedback given" />
