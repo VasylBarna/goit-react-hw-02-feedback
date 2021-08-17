@@ -5,7 +5,7 @@ import Statistics from '../Statistics';
 import Notification from '../Notification';
 import styles from './Feedback.module.scss';
 
-const feedbackСhoice = ['good', 'neutral', 'bad'];
+const feedbackChoice = ['good', 'neutral', 'bad'];
 
 class Feedback extends Component {
   state = {
@@ -37,7 +37,7 @@ class Feedback extends Component {
       <div className={styles.container}>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={feedbackСhoice}
+            options={feedbackChoice}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
